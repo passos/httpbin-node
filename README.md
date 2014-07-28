@@ -1,4 +1,4 @@
-# httpbin-node(1): HTTP Request & Response Service
+# httpbin-node(1): HTTP Client Testing Service
 
 A NodeJS version clone of python httpbin package.
 
