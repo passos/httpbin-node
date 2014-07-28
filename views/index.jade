@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  h2 ENDPOINTS
+  p 
+    a(href='/') /
+    |  This page.
+  p
+    a(href='/ip') /ip
+    |  Origin IP.
+  p
+    a(href='/headers') /headers
+    |  Returns header dict.
